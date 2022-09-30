@@ -25,6 +25,7 @@ namespace ins
 using namespace vtil::ins;
 };
 
+struct routine_state;
 static void compile( vtil::basic_block* basic_block, routine_state* state );
 
 struct routine_state
